@@ -36,7 +36,7 @@ const routes = [
 
 export default function SidebarExample() {
     return (
-        <Router>
+        <Router basename="router-test">
             <div style={{ display: "flex" }}>
                 <div
                     style={{
